@@ -2,8 +2,9 @@ import React from "react"
 
 import Fruits from './Fruits'
 import NewFruit from './NewFruit'
+import { config } from '../../Constants'
 
-const API = 'http://localhost:3000/api/v1/fruits',
+const API = config.url.API_URL,
       HEADERS = { 'Content-Type': 'application/json' }
 
 class FruitsContainer extends React.Component {
