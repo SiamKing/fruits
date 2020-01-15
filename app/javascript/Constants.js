@@ -1,6 +1,6 @@
 const prod = {
     url: {
-        API_URL: 'https://pacific-lake-05698.herokuapp.com/'
+        API_URL: 'https://pacific-lake-05698.herokuapp.com/api/v1/fruits'
     }
 }
 
